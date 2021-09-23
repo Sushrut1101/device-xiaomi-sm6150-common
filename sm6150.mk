@@ -233,6 +233,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libarbitrarybytes \
@@ -249,7 +250,8 @@ PRODUCT_PACKAGES += \
     libOmxSwVencMpeg4 \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_omx.vendor
 
 PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
