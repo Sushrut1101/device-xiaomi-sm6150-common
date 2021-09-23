@@ -79,6 +79,11 @@ vendor.audio.usb.disable.sidetone=true
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
+vendor.audio.adm.buffering.ms=2
+ro.vendor.audio.us.proximity=true
+vendor.voice.path.for.pcm.voip=true
+ro.vendor.audio.sdk.fluencetype=none
+persist.vendor.audio.voicecall.speaker.stereo=true
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
@@ -148,6 +153,10 @@ vendor.display.enable_default_color_mode=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
+ro.vendor.display.svi=1
+vendor.display.svi.config=1
+ro.vendor.display.sensortype=2
+vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
